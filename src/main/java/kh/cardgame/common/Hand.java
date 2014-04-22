@@ -21,6 +21,7 @@ public class Hand {
 		for(Card card: this.cards){
 			System.out.println(card);
 		}
+		System.out.println("\n");
 	}
 	
 	public int getValueOfCardsInHand(){
