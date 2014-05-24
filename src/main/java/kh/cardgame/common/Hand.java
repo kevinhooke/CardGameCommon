@@ -19,7 +19,7 @@ public class Hand {
 
 	public void printHand(){
 		for(Card card: this.cards){
-			System.out.println(card);
+			System.out.print(card + " ");
 		}
 		System.out.println("\n");
 	}

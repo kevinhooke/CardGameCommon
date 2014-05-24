@@ -6,5 +6,16 @@ package kh.cardgame.common;
  * @author Kevin Hooke
  */
 public enum Suit {
-	SPADES, CLUBS, DIAMONDS, HEARTS
+	
+	SPADES("S"), CLUBS("C"), DIAMONDS("D"), HEARTS("H");
+	
+	Suit(String suitDisplay){
+		this.display = suitDisplay;
+	}
+	
+	String display;
+	
+	public String toString(){
+		return this.display;
+	}
 }

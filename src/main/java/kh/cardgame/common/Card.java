@@ -18,12 +18,10 @@ public class Card {
 	}
 	
 	public String toString(){
-		StringBuilder b = new StringBuilder();
-		b.append(this.suit);
-		b.append(" ");
-		b.append(this.name);
-		b.append("  value = ");
+		StringBuilder b = new StringBuilder();		
 		b.append(this.value);
+		b.append(this.suit);
+
 		return b.toString();
 	}
 
